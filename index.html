@@ -1,19 +1,39 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Simple Portfolio</title>
-    </head>
-<h1>Y'all ain't stopping me</h1>
-<h2>I'm Anuj,I'm Sinosuicidal</h2>
-</hr>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Anuj Tarade</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
 <body>
-    <h3><a href="./public/birthday.html">Happie Birtday</a></h3>
-<img src="./assets/images/image (2).png" height="200">
-    <h3><a href="./public/Top 5 Websites.html">Top 5 Shoes Websites</a></h3>
-<img src="./assets/images/image (3).png"height="200">
-</hr>
-<h3><a href="./public/about.html">About Me</a></h3>
-<h3><a href="./public/contact.html">Dont Contact Me</a>
+
+<header class="bar pad">
+  <a href="#top" id="logo"></a>
+  <span id="updated"></span>
+  <span><span id="clock"></span> &nbsp; <button id="theme" type="button">[ THEME ]</button></span>
+</header>
+
+<main id="top">
+  <section class="hero" aria-label="Intro">
+    <h1 class="word a" id="word1"></h1>
+    <pre class="face" id="face" aria-hidden="true"></pre>
+    <h1 class="word b" id="word2" aria-hidden="true"></h1>
+    <span class="tag l" id="tagline"></span>
+    <span class="tag r" id="intro"></span>
+  </section>
+
+  <section class="sec pad sec-h"><span>[ WORK ]</span><span id="count"></span></section>
+  <nav class="index" id="index" aria-label="Pages"></nav>
+
+  <section class="sec pad sec-h" id="about-h"><span>[ ABOUT ]</span><a id="about-link" href="#">↗ MORE</a></section>
+  <section class="about"><p id="about"></p></section>
+</main>
+
+<footer class="pad" id="footer"></footer>
+
+<script src="script.js"></script>
 </body>
 </html>
