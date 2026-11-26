@@ -7,17 +7,15 @@ const CONFIG = {
   version:   "V. 001",                    // little version stamp
   tagline:   "“Y’all ain’t stopping me”", // bottom-left of hero
   intro:     "I’m Anuj, I’m Sinosuicidal",// top-right of hero (hidden on small phones)
-  about:     "Making things for the web, one weird page at a time.",
-  aboutLink: "https://anujtarade8.github.io/html-portfolio/public/about.html",
+  about:     "Web developer and designer. I like building sites that look good and work well.",
+  aboutLink: "about.html",
 
   // Add, remove or reorder items. "img" is optional.
   work: [
-    { title: "Happie Birtday",       type: "PAGE", url: "https://anujtarade8.github.io/html-portfolio/public/birthday.html",
-      img: "https://anujtarade8.github.io/html-portfolio/assets/images/image (2).png" },
-    { title: "Top 5 Shoes Websites", type: "LIST", url: "https://anujtarade8.github.io/html-portfolio/public/Top 5 Websites.html",
-      img: "https://anujtarade8.github.io/html-portfolio/assets/images/image (3).png" },
-    { title: "About Me",             type: "PAGE", url: "https://anujtarade8.github.io/html-portfolio/public/about.html" },
-    { title: "Don’t Contact Me",     type: "PAGE", url: "https://anujtarade8.github.io/html-portfolio/public/contact.html" }
+    // Add your sites here, one line each. "img" is optional:
+    // { title: "Site Name", type: "SITE", url: "https://example.com", img: "assets/images/thumb.png" },
+    { title: "About Me",         type: "PAGE", url: "about.html" },
+    { title: "Don’t Contact Me", type: "PAGE", url: "https://anujtarade8.github.io/html-portfolio/public/contact.html" }
   ],
 
   // ASCII face settings

@@ -53,3 +53,12 @@ footer{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;paddin
   .face{font-size:2.9vw}
   .tag.r{display:none}
 }
+
+/* about page */
+.about-title{margin:0;padding:2vh clamp(14px,2.2vw,32px) 3vh;font-family:var(--head);font-weight:700;letter-spacing:-.06em;line-height:.8;text-transform:uppercase;font-size:clamp(64px,24vw,380px)}
+.bio{padding:24px clamp(14px,2.2vw,32px) 48px}
+.bio p{margin:0 0 .7em;max-width:34ch;font-family:var(--head);font-weight:700;text-transform:none;letter-spacing:-.03em;line-height:1.05;font-size:clamp(24px,3.8vw,56px)}
+.facts{margin:0;display:grid;grid-template-columns:minmax(90px,220px) 1fr}
+.facts dt,.facts dd{margin:0;padding:12px 0;border-top:1px solid var(--ink)}
+.facts dt{padding-left:clamp(14px,2.2vw,32px)}
+.facts dd{padding-right:clamp(14px,2.2vw,32px)}
