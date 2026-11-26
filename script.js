@@ -14,6 +14,7 @@ const CONFIG = {
   work: [
     // Add your sites here, one line each. "img" is optional:
     // { title: "Site Name", type: "SITE", url: "https://example.com", img: "assets/images/thumb.png" },
+    { title: "Embroidery Shirt Website", type: "SITE", url: "https://anujtarade8.github.io/embroidery-shirt-website/index.html" },
     { title: "About Me",         type: "PAGE", url: "about.html" },
     { title: "Don’t Contact Me", type: "PAGE", url: "https://anujtarade8.github.io/html-portfolio/public/contact.html" }
   ],
